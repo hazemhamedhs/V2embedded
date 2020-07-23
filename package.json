@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hazemhamedhs/V2embedded#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "hellosign-embedded": "^2.5.0"
+    "hellosign-embedded": "^2.5.0",
+    "require": "^2.4.20"
   }
 }
