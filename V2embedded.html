@@ -3,14 +3,18 @@
 <head>
   <title>Signature Page - Reference Implementation</title>
   <style>
-    div {
+    /* div {
       margin-bottom: 20px;
-    }
+    } */
 
-    div#signatureContainer {
-      width: 80%;
+    #signatureContainer {
+      /* width: 80%;
       height: 70%;
-      border: 1px solid #ccc;
+      border: 1px solid #ccc; */
+
+      height: 100vh;
+      position: fixed;
+      width: 100%;
     }
   </style>
   <!-- <script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script> -->
@@ -53,7 +57,7 @@
           // uxVersion: 2,
           // skipDomainVerification: true,
           // hideHeader:true,
-          // container: document.getElementById('signatureContainer'),
+          container: document.getElementById('signatureContainer'),
 
         })
         // ------------------------------------- 
